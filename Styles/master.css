@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000101;
+}
+/* COUNER STYLES */
+#count {
+  border-radius: 10px;
+  position: absolute;
+  margin: auto;
+  top: -700px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 50px;
+  background: #005d59;
+}
+.divider {
+  float: left;
+  margin: 0;
+  width: 6px;
+  height: 50px;
+  background-color: #008f88;
+}
+.part {
+  display: table;
+  text-align: center;
+  float: left;
+  margin: 0;
+  height: 50px;
+  width: 47px;
+}
+span {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24pt;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* PLAYGROUND STYLES */
+#container {
+  border-radius: 10px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 5px;
+  width: 600px;
+  height: 600px;
+  background-color: #006e69;
+}
+.cell {
+  border-radius: 10px;
+  float: left;
+  width: 190px;
+  height: 190px;
+  margin: 5px;
+  background-color: #005d59;
+}
+.cell:hover {
+  transition: background-color 0.2s;
+  background-color: #00534f;
+}

@@ -72,6 +72,20 @@ span {
   background-color: #005d59;
 }
 
+/* X & O IMAGES STYLES */
+.x {
+  width: 130px;
+  height: 130px;
+  margin: 30px;
+  background-image: url(SVG/cross.svg);
+}
+.o {
+  width: 130px;
+  height: 130px;
+  margin: 30px;
+  background-image: url(SVG/circle.svg);
+}
+
 /*
 .cell:hover {
   transition: background-color 0.2s;

@@ -86,6 +86,12 @@ span {
   background-image: url(SVG/circle.svg);
 }
 
+@keyframes placed {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
 /*
 .cell:hover {
   transition: background-color 0.2s;
